@@ -10,7 +10,9 @@ How to run Project
 	
 	mvn clean install
 3. Run backend
+
 	java -cp target/classes escuelaing.edu.co.arep.parcial1.HttpServer
 
 4. Run Facade
+
 	java -cp target/classes escuelaing.edu.co.arep.parcial1.Facade
