@@ -117,21 +117,7 @@ public class HttpServer {
                         + "Content-Type: application/json\r\n"
                         + "\r\n"
                         + response;
-            } //            outputLine = "HTTP/1.1 200 OK\r\n"
-            //                    + "Content-Type: text/html\r\n"
-            //                    + "\r\n"
-            //                    + "<!DOCTYPE html>\n"
-            //                    + "<html>\n"
-            //                    + "<head>\n"
-            //                    + "<meta charset=\"UTF-8\">\n"
-            //                    + "<title>Title of the document</title>\n"
-            //                    + "</head>\n"
-            //                    + "<body>\n"
-            //                    + "<h1>"
-            //                    + response
-            //                    + "</h1>\n"
-            //                    + "</body>\n"
-            //                    + "</html>\n";
+            } 
             else {
                 outputLine = "HTTP/1.1 200 OK\r\n"
                         + "Content-Type: application/json\r\n"

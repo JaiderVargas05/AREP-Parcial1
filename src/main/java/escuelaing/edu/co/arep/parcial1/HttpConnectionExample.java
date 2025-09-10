@@ -8,6 +8,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
+import java.net.URI;
 import java.net.URL;
 
 /**
@@ -17,15 +18,14 @@ import java.net.URL;
   public class HttpConnectionExample {
 
     private static final String USER_AGENT = "Mozilla/5.0";
-    private static final String GET_URL = "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=fb&apikey=Q1QZFVJQ21K7C6XM";
+    private static final String GET_URL = "http://localhost:9001";
 
-    public static void main(String[] args) throws IOException {
+    public static String execRequest(URI reqUri) throws IOException {
 
-        URL obj = new URL(GET_URL);
+        URL obj = new URL(GET_URL + reqUri);
         HttpURLConnection con = (HttpURLConnection) obj.openConnection();
         con.setRequestMethod("GET");
         con.setRequestProperty("User-Agent", USER_AGENT);
-        
         //The following invocation perform the connection implicitly before getting the code
         int responseCode = con.getResponseCode();
         System.out.println("GET Response Code :: " + responseCode);
@@ -43,10 +43,12 @@ import java.net.URL;
 
             // print result
             System.out.println(response.toString());
+            return response.toString();
         } else {
             System.out.println("GET request not worked");
         }
         System.out.println("GET DONE");
+        return null;
     }
 
 }
