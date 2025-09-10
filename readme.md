@@ -1,7 +1,9 @@
 How to run Project
 
 1. clone the github repository
+
 	git clone https://github.com/JaiderVargas05/AREP-Parcial1.git
+	
 2. Compile and install dependencies
 
 	cd Arep-Parcial1
