@@ -25,7 +25,8 @@
    
 3. Get Numbers
    
-   <img width="993" height="148" alt="image" src="https://github.com/user-attachments/assets/35cbcc3d-4e2a-45ff-8a1f-9d38f7971afb" />
+<img width="584" height="152" alt="image" src="https://github.com/user-attachments/assets/e78fbe68-9fc8-4384-894b-bba1d180b774" />
+
 
 5. Get Stats
    
