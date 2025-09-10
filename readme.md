@@ -1,4 +1,4 @@
-How to run Project
+**How to run Project**
 
 1. clone the github repository
 
