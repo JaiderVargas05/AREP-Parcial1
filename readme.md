@@ -30,10 +30,12 @@
 
 5. Get Stats
    
-   <img width="615" height="159" alt="image" src="https://github.com/user-attachments/assets/84b4025d-1b8e-44eb-b9cf-bf568cad9d2f" />
+<img width="1222" height="150" alt="image" src="https://github.com/user-attachments/assets/351c1ff0-70bb-4084-919e-3b5a4b3065b3" />
+
    
 7. Clear Numbers
    
-<img width="418" height="152" alt="image" src="https://github.com/user-attachments/assets/a1b5bd14-e4cf-4b95-b783-bfad9a720a7a" />
+<img width="641" height="158" alt="image" src="https://github.com/user-attachments/assets/faff89dc-2329-4e20-b21e-007d6e6fb58a" />
 
-![Uploading image.png…]()
+
+<img width="421" height="156" alt="image" src="https://github.com/user-attachments/assets/4c0adca6-e89f-46c0-8615-b896e29fd91a" />
