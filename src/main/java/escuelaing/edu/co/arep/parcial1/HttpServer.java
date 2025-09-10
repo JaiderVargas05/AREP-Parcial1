@@ -85,7 +85,7 @@ public class HttpServer {
                                 double number = Double.parseDouble(obj.toString());
                                 sumatory = sumatory + Math.pow(number - mean, 2);
                             }
-                            stddev = Math.pow(sumatory / (numbers.size() - 1), 1 / 2);
+                            stddev = Math.sqrt(sumatory / (numbers.size() - 1));
                             response = "{\"status\":\"OK\",\"mean\":" + mean + ",\"stddev\":" + stddev + "\"count\":" + numbers.size() + "}";
 
                         } catch (Exception e) {
