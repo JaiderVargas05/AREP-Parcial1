@@ -61,7 +61,7 @@ public class HttpServer {
                         break;
                     case "/BACKEND/clear":
                         numbers.clear();
-                        response = "{\"status\":\"OK\",\"error\":\"list_cleared\"}";
+                        response = "{\"status\":\"OK\",\"message\":\"list_cleared\"}";
                         break;
                     case "/BACKEND/stats":
                         double media = 0;
