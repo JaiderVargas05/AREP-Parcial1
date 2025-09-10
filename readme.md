@@ -17,11 +17,22 @@
 
 	java -cp target/classes escuelaing.edu.co.arep.parcial1.Facade
 
-** Tests **
+**Tests**
+
 1. Add Number
+   
    <img width="577" height="208" alt="image" src="https://github.com/user-attachments/assets/7cc78a5f-226a-4e60-84e5-0c27565c2c57" />
-2. Get Numbers
+   
+3. Get Numbers
+   
    <img width="993" height="148" alt="image" src="https://github.com/user-attachments/assets/35cbcc3d-4e2a-45ff-8a1f-9d38f7971afb" />
-3. Get Stats
-   ![Uploading image.png…]()
-4. Clear Numbers
+
+5. Get Stats
+   
+   <img width="615" height="159" alt="image" src="https://github.com/user-attachments/assets/84b4025d-1b8e-44eb-b9cf-bf568cad9d2f" />
+   
+7. Clear Numbers
+   
+<img width="418" height="152" alt="image" src="https://github.com/user-attachments/assets/a1b5bd14-e4cf-4b95-b783-bfad9a720a7a" />
+
+![Uploading image.png…]()
